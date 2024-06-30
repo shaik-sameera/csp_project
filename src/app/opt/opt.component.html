@@ -1,0 +1,267 @@
+
+<div class="navbar navbar-light bg-success navbar-expand-md py-2 ">
+  <a href="" class="navbar-brand" style="font-size: xx-large;color:rgb(220, 215, 235)">Reduce Pesticides and Increse
+      Human Lifespan <span class="bi bi-tree-fill green-color"></span></a>
+
+  <div class="main-search-input-wrap ms-auto p-1">
+      <div class="main-search-input fl-wrap">
+          <div class="main-search-input-item">
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+              <!-- <button class="btn btn-outline-primary" type="submit">Search</button> -->
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container-fluid text-center ">
+
+  <div class="row border p-2" style="font-size: x-large;" id="topnav">
+      <div class="col"><a class="navbar-brand activity" href="#" style="color: rgb(5, 63, 5); font-weight:bold;"
+              routerLink="/home">Home</a></div>
+      <div class="col">
+          <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"
+              style="color: rgb(2, 87, 2); font-weight:bold;"> Org- Pesticides types</a>
+
+          <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown">
+
+              <div class="container">
+                  <div class="row my-3">
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                          <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action" routerLink="/opt">Organic
+                                  Pesticides</a>
+                              <a href="" class="list-group-item list-group-item-action">Natural Organic Pesticides</a>
+                              <a href="" class="list-group-item list-group-item-action">Fumigants</a>
+
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                          <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action" routerLink="/ch">Chlorinated Hydrocarbons</a>
+                              <a href="" class="list-group-item list-group-item-action">Organophosphates</a>
+                              <a href="" class="list-group-item list-group-item-action">Carbamates</a>
+
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                          <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">Microbial Agents</a>
+                              <a href="" class="list-group-item list-group-item-action">Biological Contro</a>
+
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3">
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="col"><a class="navbar-brand" href="#" style="color: rgb(8, 65, 8); font-weight:bold;"
+              routerLink="/sell">Sell here</a></div>
+
+      <!-- Dropdown menu -->
+      <div class="col">
+          <a  class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"
+              style="color: rgb(2, 87, 2); font-weight:bold;">opt</a>
+
+          <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown">
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="list-group list-group-flush">
+                      <a href="" class="list-group-item list-group-item-action" routerLink="/insert">Insert</a>
+                      <a href="" class="list-group-item list-group-item-action" routerLink="/delete">Delete</a>
+                      <a href="" class="list-group-item list-group-item-action" routerLink="p">Update</a>
+                      <a href="" class="list-group-item list-group-item-action" routerLink="/read">Read</a>
+
+
+                  </div>
+              </div>
+
+          </div>
+
+          <!-- Dropdown menu -->
+
+
+      </div>
+      <router-outlet></router-outlet>
+
+           
+
+
+<!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          
+          <img src="/assets/pic6.avif">
+          <div class="container">
+              <div class="carousel-caption text-start">
+                  <h1> Agriculture is a fundamental source of national prosperity.</h1>
+                  <p>Without Pesticides....Happy Life</p>
+                 
+              </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="/assets/pic7.avif">
+          <div class="container">
+              <div class="carousel-caption">
+                  <h1 style="color: rgb(253, 249, 249);">If It's Not Safe To <br>
+                  Breathe......</h1>
+                  <h2 style="color: rgb(253, 249, 249);">...is it Safe to <strong>EAT?</strong></h2>
+              </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="/assets/pic5.avif">
+          <div class="container">
+              <div class="carousel-caption text-end">
+                  <h1>Conservation, Not Carbon Offsets! Support Regenerative Organic Agriculture!</h1>
+              </div>
+          </div>
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+       -->
+
+
+
+<div class="container">
+    <div class="row ">
+<div class="card col-md-2" style="width: 20rem;">
+    <img src="..\assets\c1.webp" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Brown Plant Hopper</h5>
+      <h6 class="card-text">Target Pests: Brown Plant Hopper
+        <strong>Product_Id: sam125</strong>
+
+        Packaging Size: 20 L
+        
+        Target: Insect Control
+        
+        Brand: Redox
+        
+        Form: Liquid
+        
+        Dosage: 100 ml per acre</h6>
+      <a href="" class="btn btn-primary"routerLink="/read">More Details</a>
+      <a href="#" class="btn btn-danger" routerLink="/home">Cancle</a>
+    </div>
+  </div>
+  <div class="card col-md-2 ms-auto" style="width: 20rem;">
+    <img src="..\assets\c2.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Neutro Neem Pesticide</h5>
+      <h6 class="card-text">Packaging Size: 100 ml
+
+        Form: Liquid
+        
+        Target: Nematode Control
+        
+        Types: Preventive
+        
+        Brand: Eagle
+        
+        Dose: 0.70 ml per litre of water</h6>
+      <a href="#" class="btn btn-primary"routerLink="/read">More Details</a>
+      <a href="#" class="btn btn-danger" routerLink="/home">Cancle</a>
+    </div>
+  </div>
+  <div class="card col-md-2 ms-auto" style="width: 20rem;">
+    <img src="..\assets\c3.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Organic Insecticide</h5>
+      <h6 class="card-text">Packaging Size: 25 Kg
+
+        Packaging Type: Paper Bag & Drum
+        
+        Crop: Vegetable, Fruits, Paddy etc.
+        
+        Form: Powder
+        
+        Brand: SBT
+        
+        Country of Origin: Made in India</h6>
+      <a href="#" class="btn btn-primary"routerLink="/read">More Details</a>
+      <a href="#" class="btn btn-danger" routerLink="/home">Cancle</a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="row just">
+    <div class="card col-md-2" style="width: 20rem;">
+        <img src="..\assets\c4.webp" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Brown Plant Hopper</h5>
+          <h6 class="card-text">Target Pests: Brown Plant Hopper
+            <strong>Product_Id: sam125</strong>
+    
+            Packaging Size: 20 L
+            
+            Target: Insect Control
+            
+            Brand: Redox
+            
+            Form: Liquid
+            
+            Dosage: 100 ml per acre</h6>
+          <a href="" class="btn btn-primary"routerLink="/read">More Details..</a>
+          <a href="#" class="btn btn-danger" routerLink="/home">Cancle</a>
+        </div>
+      </div>
+      <div class="card col-md-2 ms-auto" style="width: 20rem;">
+        <img src="..\assets\c5.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Neutro Neem Pesticide</h5>
+          <h6 class="card-text">Packaging Size: 100 ml
+    
+            Form: Liquid
+            
+            Target: Nematode Control
+            
+            Types: Preventive
+            
+            Brand: Eagle
+            
+            Dose: 0.70 ml per litre of water</h6>
+          <a href="#" class="btn btn-primary"routerLink="/read">More Details</a>
+          <a href="#" class="btn btn-danger" routerLink="/home">Cancle</a>
+        </div>
+      </div>
+      <div class="card col-md-2 ms-auto" style="width: 20rem;">
+        <img src="..\assets\c6.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Organic Insecticide</h5>
+          <h6 class="card-text">Packaging Size: 25 Kg
+    
+            Packaging Type: Paper Bag & Drum
+            
+            Crop: Vegetable, Fruits, Paddy etc.
+            
+            Form: Powder
+            
+            Brand: SBT
+            
+            Country of Origin: Made in India</h6>
+          <a href="#" class="btn btn-primary"routerLink="/read">More Details</a>
+          <a href="#" class="btn btn-danger" routerLink="/home">Cancle</a>
+        </div>
+      </div>
+    </div>
+<router-outlet></router-outlet>

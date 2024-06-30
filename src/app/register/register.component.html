@@ -1,0 +1,17 @@
+
+<div class="bg-img">
+  <div class="content">
+    <header>Registration Form</header>
+    <form #r="ngForm" (ngSubmit)="register(r)">
+      <div class="field">
+        <i class="fa fa-user"></i>
+        <input type="email" placeholder=" Enter Your Email" name="email" ngModel required>
+      </div>
+      <div class="field space">
+        <i class="fa fa-lock icon"></i>
+        <input type="password" class="password" placeholder="Enter your password" name="password" ngModel>
+      </div>
+      <input type="submit" value="submit" routerLink="/login">
+    </form>
+  </div>
+</div>

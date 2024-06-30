@@ -1,0 +1,108 @@
+<div class="navbar navbar-light bg-success navbar-expand-md py-2 ">
+    <a href="" class="navbar-brand" style="font-size: xx-large;color:rgb(220, 215, 235)">Reduce Pesticides and Increse
+        Human Lifespan <span class="bi bi-tree-fill green-color"></span></a>
+
+
+    <div class="main-search-input-wrap ms-auto p-1">
+        <div class="main-search-input fl-wrap">
+            <div class="main-search-input-item">
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                <!-- <button class="btn btn-outline-primary" type="submit">Search</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid text-center ">
+
+    <div class="row border py-3" style="font-size: x-large;" id="topnav">
+        <div class="col"><a class="navbar-brand activity" href="#" style="color: rgb(5, 63, 5); font-weight:bold;"
+                routerLink="/home">Home</a></div>
+        <div class="col-md-3">
+            <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"
+                style="color: rgb(2, 87, 2); font-weight:bold;"> Org- Pesticides types</a>
+
+            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown">
+
+                <div class="container">
+                    <div class="row my-3">
+                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                                <a href="" class="list-group-item list-group-item-action" routerLink="/opt">Organic
+                                    Pesticides</a>
+                                <a href="" class="list-group-item list-group-item-action">Natural Organic Pesticides</a>
+                                <a href="" class="list-group-item list-group-item-action">Fumigants</a>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                                <a href="" class="list-group-item list-group-item-action" routerLink="/ch">Chlorinated
+                                    Hydrocarbons</a>
+                                <a href="" class="list-group-item list-group-item-action">Organophosphates</a>
+                                <a href="" class="list-group-item list-group-item-action">Carbamates</a>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                                <a href="" class="list-group-item list-group-item-action">Microbial Agents</a>
+                                <a href="" class="list-group-item list-group-item-action">Biological Contro</a>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3"><a class="navbar-brand" href="#" style="color: rgb(8, 65, 8); font-weight:bold;"
+                routerLink="/sell">Sell here</a></div>
+
+        <div class="col">
+            <a routerLink="User" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"
+                style="color: rgb(2, 87, 2); font-weight:bold;">opt</a>
+
+            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="list-group list-group-flush">
+                        <a href="" class="list-group-item list-group-item-action" routerLink="/insert">Insert</a>
+                        <a href="" class="list-group-item list-group-item-action" routerLink="/delete">Delete</a>
+                        <a href="" class="list-group-item list-group-item-action" routerLink="/update">Update</a>
+                        <a href="" class="list-group-item list-group-item-action" routerLink="/read">Read</a>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col">
+            <li class="nav-item dropdown" style="list-style-type: none;">
+                <a class="nav-link dropdown-toggle"  routerLinkActive="active"  role="button btn btn-success" data-bs-toggle="dropdown" aria-expanded="false"style="color: rgb(2, 87, 2); font-weight:bold;">
+                  Services
+                </a>
+                <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a routerLink="/user"   role="button" class="btn btn-success mb-3 p-2" >Pesticides Types</a></li>
+                  <li><a routerLink="/about" class="btn btn-success mb-3 p-2">About Us</a></li>
+                  <li><a routerLink="/contact" routerLinkActive="active" role="button" class="btn btn-success mb-3 p-2">Contact Us</a></li>
+                </ul>
+              </li>
+
+             <img src="https://agri-route.com/blogs/news/which-pesticide-types-are-used-in-agriculture" >
+
+
+        </div>
+        <router-outlet></router-outlet>
+
+
+
+
